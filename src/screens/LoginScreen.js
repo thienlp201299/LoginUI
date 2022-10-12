@@ -25,7 +25,7 @@ const LoginScreen = () => {
 
       {/* Form Login */}
       <View style={styles.formUserName}>
-        <Icon name='mail' style={{ paddingLeft: 20 }} size={30} />
+        <Icon name='user' style={{ paddingLeft: 20 }} size={30} />
         <TextInput style={{ paddingLeft: 20 }}
           placeholder='meobiettuot@gmail.com'
         />
@@ -172,9 +172,9 @@ const styles = StyleSheet.create({
     textAlign: 'center'
   },
   textOR: {
-    fontFamily: 'Montserrat',
+    fontFamily: 'Nunito-Nold',
     fontStyle: 'normal',
-    fontWeight: '500',
+    fontWeight: '400',
     fontSize: 13,
     lineHeight: 16,
     textAlign: 'center',

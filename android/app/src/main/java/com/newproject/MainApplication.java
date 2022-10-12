@@ -1,5 +1,4 @@
 package com.newproject;
-
 import com.oblador.vectoricons.VectorIconsPackage;
 import android.app.Application;
 import android.content.Context;
@@ -29,16 +28,17 @@ public class MainApplication extends Application implements ReactApplication {
           @SuppressWarnings("UnnecessaryLocalVariable")
           List<ReactPackage> packages = new PackageList(this).getPackages();
           // Packages that cannot be autolinked yet can be added manually here, for example:
-          // packages.add(new MyReactNativePackage());
+           packages.add(new VectorIconsPackage());
           return packages;
         }
-/*         @Override
+        
+       /*  @Override
         protected List<ReactPackage> getPackages() {
           return Arrays.<ReactPackage>asList(
             new MainReactPackage(), 
             new VectorIconsPackage()
-    );
-  } */
+  }
+    ); */
 
         @Override
         protected String getJSMainModuleName() {
